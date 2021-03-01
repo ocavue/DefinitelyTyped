@@ -1231,10 +1231,10 @@ export interface NodeSpec {
     toDebugString?: ((node: ProsemirrorNode) => string) | null;
     /**
      * By default, gap cursor are only allowed in places where the 
-     default content node (in the schema content constraints) is a 
-     textblock node. You can customize this by adding an `allowGapCursor` 
-     property to your node specs — if it's true, gap cursor are allowed 
-     everywhere in that node, if it's false they are never allowed.
+     * default content node (in the schema content constraints) is a 
+     * textblock node. You can customize this by adding an `allowGapCursor` 
+     * property to your node specs — if it's true, gap cursor are allowed 
+     * everywhere in that node, if it's false they are never allowed.
      */
     allowGapCursor?: boolean;
     /**
